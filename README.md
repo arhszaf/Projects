@@ -1,4 +1,4 @@
 # Projects
-### _Distributed systems Project_
+### Distributed systems Project
 
-
+Implementation of map-reduce framework
