@@ -7,8 +7,8 @@ The system consists of four main components:
 
 <font color="red">**Client**</font>: Sends GPX file data to the master server and receives the processed results.
 
-**Master**: Manages the connection between clients and workers, distributes the workload, and aggregates the results from workers.
+1. <span style="color: red;">**Master**</span>: Manages the connection between clients and workers, distributes the workload, and aggregates the results from workers.
 
-**Worker**: Processes chunks of GPX data to compute various statistics like total distance, average speed, total elevation, and total time.
+2. **Worker**: Processes chunks of GPX data to compute various statistics like total distance, average speed, total elevation, and total time.
 
-**GPXParser**: Parses the GPX file to extract waypoint information.
+3. **GPXParser**: Parses the GPX file to extract waypoint information.
