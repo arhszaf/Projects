@@ -5,7 +5,7 @@ This project implements a GPX data processing system using a MapReduce framework
 ### Components
 The system consists of four main components:
 
-Client: Sends GPX file data to the master server and receives the processed results.
-Master: Manages the connection between clients and workers, distributes the workload, and aggregates the results from workers.
-Worker: Processes chunks of GPX data to compute various statistics like total distance, average speed, total elevation, and total time.
-GPXParser: Parses the GPX file to extract waypoint information.
+**Client**: Sends GPX file data to the master server and receives the processed results.
+**Master**: Manages the connection between clients and workers, distributes the workload, and aggregates the results from workers.
+**Worker**: Processes chunks of GPX data to compute various statistics like total distance, average speed, total elevation, and total time.
+**GPXParser**: Parses the GPX file to extract waypoint information.
