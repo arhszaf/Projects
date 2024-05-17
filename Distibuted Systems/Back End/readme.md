@@ -5,7 +5,7 @@ This project implements a GPX data processing system using a MapReduce framework
 ### Components
 The system consists of four main components:
 
-$${\color{red}Red}$$ **Client**</font>: Sends GPX file data to the master server and receives the processed results.
+$${\color{red}**Client**}$$: Sends GPX file data to the master server and receives the processed results.
 
 1. <span style="color: red;">**Master**</span>: Manages the connection between clients and workers, distributes the workload, and aggregates the results from workers.
 
