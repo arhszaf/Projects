@@ -23,3 +23,25 @@ The GPX file should contain waypoints (`<wpt>`) with latitude (`<lat>`), longitu
   </wpt>
 </gpx>
 ```
+### Code Structure
+**GPXParser.java**: Parses the GPX file and extracts waypoints into a structured list.
+**Master.java**: Handles client and worker connections, distributes chunks of data to workers, and aggregates results.
+**Worker.java**: Processes assigned chunks of GPX data to compute statistics.
+**Client.java**: Sends GPX file data to the master server and receives the processed results.
+### MapReduce Implementation
+The MapReduce framework is implemented as follows:
+
+####Map Phase (Worker Nodes)
+* **Total_distance**: Calculates the total distance from the GPX data.
+Avg_speed: Computes the average speed.
+Total_elevation: Calculates the total elevation gain.
+Total_time: Computes the total time.
+Each worker node processes a chunk of data and computes these statistics in parallel.
+
+Reduce Phase (Master Node)
+Aggregates the results from all worker nodes.
+Computes the final statistics by combining the results from each worker.
+Usage
+Client: Sends a GPX file and waits for the processed results.
+Master: Coordinates the distribution of data chunks to worker nodes and aggregates the results.
+Worker: Processes data chunks to calculate total distance, average speed, total elevation, and total time.
