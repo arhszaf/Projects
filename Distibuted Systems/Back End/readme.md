@@ -14,7 +14,7 @@ The system consists of four main components:
 4. **GPXParser**: Parses the GPX file to extract waypoint information.
 
 ### GPX File Format
-The GPX file should contain waypoints (<wpt>) with latitude (lat), longitude (lon), elevation (<ele>), and time (<time>) elements. Here's an example:
+The GPX file should contain waypoints (`<wpt>`) with latitude (`<lat>`), longitude (`<lon>`), elevation (`<ele>`), and time (`<time>`) elements. Here's an example:
 ```
 <gpx>
   <wpt lat="47.644548" lon="-122.326897">
