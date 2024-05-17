@@ -41,7 +41,8 @@ Each worker node processes a chunk of data and computes these statistics in para
 #### Reduce Phase (Master Node)
 * Aggregates the results from all worker nodes.
 * Computes the final statistics by combining the results from each worker.
-Usage
+
+#### Usage
 1. **Client**: Sends a GPX file and waits for the processed results.
 2. **Master**: Coordinates the distribution of data chunks to worker nodes and aggregates the results.
 3. **Worker**: Processes data chunks to calculate total distance, average speed, total elevation, and total time.
