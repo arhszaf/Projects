@@ -31,17 +31,17 @@ The GPX file should contain waypoints (`<wpt>`) with latitude (`<lat>`), longitu
 ### MapReduce Implementation
 The MapReduce framework is implemented as follows:
 
-####Map Phase (Worker Nodes)
+#### Map Phase (Worker Nodes)
 * **Total_distance**: Calculates the total distance from the GPX data.
-Avg_speed: Computes the average speed.
-Total_elevation: Calculates the total elevation gain.
-Total_time: Computes the total time.
+* **Avg_speed**: Computes the average speed.
+* **Total_elevation**: Calculates the total elevation gain.
+* **Total_time**: Computes the total time.
 Each worker node processes a chunk of data and computes these statistics in parallel.
 
-Reduce Phase (Master Node)
-Aggregates the results from all worker nodes.
-Computes the final statistics by combining the results from each worker.
+#### Reduce Phase (Master Node)
+* Aggregates the results from all worker nodes.
+* Computes the final statistics by combining the results from each worker.
 Usage
-Client: Sends a GPX file and waits for the processed results.
-Master: Coordinates the distribution of data chunks to worker nodes and aggregates the results.
-Worker: Processes data chunks to calculate total distance, average speed, total elevation, and total time.
+1. **Client**: Sends a GPX file and waits for the processed results.
+2. **Master**: Coordinates the distribution of data chunks to worker nodes and aggregates the results.
+3. **Worker**: Processes data chunks to calculate total distance, average speed, total elevation, and total time.
