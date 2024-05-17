@@ -15,9 +15,11 @@ The system consists of four main components:
 
 ### GPX File Format
 The GPX file should contain waypoints (<wpt>) with latitude (lat), longitude (lon), elevation (<ele>), and time (<time>) elements. Here's an example:
-```<gpx>
+```
+<gpx>
   <wpt lat="47.644548" lon="-122.326897">
     <ele>4.46</ele>
     <time>2020-01-01T00:00:00Z</time>
   </wpt>
-</gpx>```
+</gpx>
+```
