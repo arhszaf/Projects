@@ -3,8 +3,8 @@ This project is an Android application that connects the frontend with the backe
 communication. It includes multiple activities and fragments to handle different parts of the application.
 ### Permisions
 This application requires the following permissions:
-* `**READ_EXTERNAL_STORAGE**`
-* `**WRITE_EXTERNAL_STORAGE**`
+* `READ_EXTERNAL_STORAGE`
+* `WRITE_EXTERNAL_STORAGE`
 These permissions are requested at runtime to ensure the application can read and write files to external storage.
 ### Usage
 
