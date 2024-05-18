@@ -1,6 +1,6 @@
 # Frontend Distributed Systems
 This project is an Android application that connects the frontend with the backend using fragments and socket
-communication. It includes multiple activities and fragments to handle different parts of the application. The App is an `activity tracker`. The intefrace consists of 3 basic functionalities: `Profile`,`Statistics` and `Routes`.The `Profile` of the user displays the name, lastname and date of birth of the user.The `Statistics` compares with the other users based on the total time it took to complete the selected route.The `Routes` displays the available routes to the user to select from.
+communication. It includes multiple activities and fragments to handle different parts of the application. The App is an `activity tracker`. The intefrace consists of 3 basic functionalities: `Profile`,`Statistics` and `Routes`.The `Profile` displays the name, lastname and date of birth of the user.The `Statistics` compares with the other users based on the total time it took to complete the selected route.The `Routes` displays the available routes to the user to select from.
 
 ### Permisions
 This application requires the following permissions:
