@@ -18,6 +18,7 @@ The `StartActivity` handles the main functionalities of the app, including fragm
 * **ProfileFragment**
 * **StatisticsFragment**
 * **RoutesFragment**
+
 It also includes logic to copy files from assets to external storage.
 
 #### ProfileFragment
