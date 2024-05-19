@@ -31,11 +31,11 @@ The Scikit-learn Logistic Regression implementation involves:
 ##Results
 The performance of both the custom implementation and Scikit-learn's implementation is evaluated on various training set sizes.
 The following metrics are compared:
-* **Training Accuracy
-* **Test Accuracy
-* **Precision
-* **Recall
-* **F1 Score
+* **Training Accuracy**
+* **Test Accuracy**
+* **Precision**
+* **Recall**
+* **F1 Score**
 The results are visualized using plots for better understanding.
 ## Learning Curves
 The custom implementation and the Scikit-learn implementation show comparable performance,
