@@ -1,4 +1,4 @@
-## A* Search Algorithm for River Crossing Problem 
+# A* Search Algorithm for River Crossing Problem 
  
 This project implements the A* search algorithm to solve the river crossing problem. The program 
 allows users to input the number of people,the total allowed crossing time, and the individual 
