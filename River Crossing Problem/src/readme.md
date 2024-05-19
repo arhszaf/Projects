@@ -20,14 +20,14 @@ Each person has a different crossing time, and the goal is to find the optimal s
 3. Enter the individual crossing times for each person. Each time must be a positive integer and unique.
 4. The program will output the optimal sequence of crossings if a solution exists within the specified time.
 ## Implementation Details
-#### **Main Class**
+### **Main Class**
 The `Main` class handles user input and initializes the AstarSearch object. It also prints the solution path if found.
 
-#### **AstarSearch Class**
+### **AstarSearch Class**
 The `AstarSearch` class implements the A* search algorithm. It maintains a priority queue for the frontier and a closed set for explored states.
 
-#### **State Class**
+### **State Class**
 The `State` class represents a state in the river crossing problem. It includes methods for generating child states, evaluating the heuristic, and printing move details.
 
-#### **Heuristics**
+### **Heuristics**
 * **Heuristic 1** : Estimates the cost to reach the goal by finding the maximum time on the right side.
