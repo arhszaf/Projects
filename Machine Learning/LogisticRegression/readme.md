@@ -28,7 +28,8 @@ The Scikit-learn Logistic Regression implementation involves:
 3.**Prediction and Evaluation**:
   * Use the trained model to make predictions on the test data.
   * Evaluate the model using accuracy, precision, recall, and F1 score.
-##Results
+    
+## Results
 The performance of both the custom implementation and Scikit-learn's implementation is evaluated on various training set sizes.
 The following metrics are compared:
 * **Training Accuracy**
