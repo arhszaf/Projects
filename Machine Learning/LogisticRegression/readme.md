@@ -1,5 +1,5 @@
 # Logistic Regression Implementation and Comparison
-implementation of a Logistic Regression classifier from scratch and compares it
+This project demonstrates implementation of a Logistic Regression classifier from scratch and compares it
 with the Logistic Regression implementation from Scikit-learn. We use the IMDb movie
 review dataset to evaluate the performance of both models on text classification tasks. The goal is to 
 predict whether a given movie review is positive or negative.
