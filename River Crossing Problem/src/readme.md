@@ -15,7 +15,7 @@ Each person has a different crossing time, and the goal is to find the optimal s
 * Provides the optimal solution if it exists within the specified time.
 
 ## Usage
-* 1.When prompted, enter the number of people.
-* 2.Enter the total allowed crossing time in minutes.
-* 3.Enter the individual crossing times for each person. Each time must be a positive integer and unique.
-* 4.The program will output the optimal sequence of crossings if a solution exists within the specified time.
+1. When prompted, enter the number of people.
+2. Enter the total allowed crossing time in minutes.
+3. Enter the individual crossing times for each person. Each time must be a positive integer and unique.
+4. The program will output the optimal sequence of crossings if a solution exists within the specified time.
